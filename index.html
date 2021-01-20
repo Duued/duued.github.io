@@ -17,11 +17,11 @@
 </script>
 <script> function suckitsecurly() {
 		var path="https://duued.github.io/suckitsecurly"
-		window.site = window.Open(path, '', 'menu=no,toolbar=no,location=no,scrollbars=yes');
+		var site = window.Open(path, '', 'menu=no,toolbar=no,location=no,scrollbars=yes');
 	}
 </script>
 <script> function closeitsecurly() {
-		site.close()
+		window.site.close()
 	}
 </script>
 	<button onclick="test()">Github</button>
