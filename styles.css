@@ -1,17 +1,17 @@
-body{
+body {
     background-color: black;
     color: white;
 }
 
-.heading{
+.heading {
     text-align: center;
 }
 
-table{
+table {
     grid-area: auto;
     grid-auto-columns: auto;
 }
 
-h6{
+h6 {
     font-size: 15px;
 }
